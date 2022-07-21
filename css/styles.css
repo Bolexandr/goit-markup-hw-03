@@ -66,7 +66,9 @@ button {
 }
 
 /* HEADER */
-.header-block {}
+.header-block {
+    border-bottom: 1px solid #ECECEC;
+}
 
 .site-nav {
     margin-left: 95px;
@@ -290,13 +292,23 @@ button {
     margin-top: 95px;
 }
 
+
+.examples-img {
+    margin-bottom: 20px;
+}
+
 .examples-title {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+
 }
 
-.buttons .item-portfolio:not(:last-child) {
+.buttons .item:not(:last-child) {
     margin-right: 10px;
 }
 
@@ -323,6 +335,10 @@ button {
     color: var(--primary-text-color);
     line-height: 1.88;
     font-weight: 400;
+
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 25px;
 }
 
 /* futer */
