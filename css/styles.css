@@ -302,7 +302,9 @@ button {
 
 
 .examples-img {
-    margin-bottom: 20px;
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .examples-title {
@@ -310,20 +312,26 @@ button {
     line-height: 2;
     letter-spacing: 0.06em;
 
-    margin-top: 0px;
+    /* margin-top: 0px; */
     margin-bottom: 5px;
     margin-left: 25px;
-
+    padding-top: 20;
 }
 
 
 .item-portfolio {
     width: 370px;
-    height: 404px;
+    /* height: 404px; */
 
     background: #FFFFFF;
-    border: 1px solid #EEEEEE;
 
+
+}
+
+.border-botom {
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
 }
 
 .examples {
