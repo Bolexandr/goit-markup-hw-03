@@ -65,7 +65,11 @@ button {
 
 /* HEADER */
 .header-block {
+    border-bottom: 1px solid #ECECEC;
 
+}
+
+.flex-container {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
