@@ -65,7 +65,7 @@ button {
 
 /* HEADER */
 .header-block {
-    border-bottom: 1px solid #ECECEC;
+
     display: flex;
     align-items: center;
     flex-wrap: wrap;
