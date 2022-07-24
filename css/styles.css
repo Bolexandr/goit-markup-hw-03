@@ -73,6 +73,7 @@ button {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .site-nav {
@@ -299,6 +300,7 @@ button {
 
 .buttons {
     display: flex;
+    flex-wrap: wrap;
     padding-top: 94px;
     gap: 8px;
     justify-content: center;
@@ -316,7 +318,6 @@ button {
     line-height: 2;
     letter-spacing: 0.06em;
 
-    /* margin-top: 0px; */
     margin-bottom: 5px;
     margin-left: 25px;
     padding-top: 20;
